@@ -1,0 +1,10 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": ["airbnb-base", "plugin:prettier/recommended"],
+    "rules": {
+        "no-console": ["off"],
+        "object-curly-spacing": ["error", "never"]
+    }
+}

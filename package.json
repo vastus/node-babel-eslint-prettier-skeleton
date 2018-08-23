@@ -1,0 +1,32 @@
+{
+    "name": "cuda",
+    "version": "1.0.0",
+    "description": "Customer data API",
+    "main": "index.js",
+    "scripts": {
+        "build": "babel src -d dist",
+        "start": "nodemon src/index.js --exec babel-node",
+        "lint": "eslint src"
+    },
+    "keywords": [
+        "graphql",
+        "cuda",
+        "customer data"
+    ],
+    "author": "Juho Hautala <juho.hautala@iki.fi>",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "eslint": "^5.4.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-config-prettier": "^3.0.1",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-prettier": "^2.6.2",
+        "nodemon": "^1.18.3",
+        "prettier": "^1.14.2"
+    },
+    "dependencies": {
+        "express": "^4.16.3"
+    }
+}
