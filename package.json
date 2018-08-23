@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Starter skeleton for node, babel, eslint, and prettier",
     "main": "src/index.js",
+    "repository": "https://github.com/vastus/node-babel-eslint-prettier-skeleton",
     "scripts": {
         "build": "babel src -d dist",
         "start": "nodemon src/index.js --exec babel-node",
