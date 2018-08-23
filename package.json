@@ -1,17 +1,20 @@
 {
-    "name": "cuda",
+    "name": "juhoh-node-babel-eslint-prettier-skeleton",
     "version": "1.0.0",
-    "description": "Customer data API",
-    "main": "index.js",
+    "description": "Starter skeleton for node, babel, eslint, and prettier",
+    "main": "src/index.js",
     "scripts": {
         "build": "babel src -d dist",
         "start": "nodemon src/index.js --exec babel-node",
         "lint": "eslint src"
     },
     "keywords": [
-        "graphql",
-        "cuda",
-        "customer data"
+        "starter",
+        "skeleton",
+        "node",
+        "babel",
+        "eslint",
+        "prettier"
     ],
     "author": "Juho Hautala <juho.hautala@iki.fi>",
     "license": "ISC",

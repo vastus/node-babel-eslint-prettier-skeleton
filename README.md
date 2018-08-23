@@ -1,4 +1,4 @@
-# Starter
+# Node skeleton w/ babel, eslint, and prettier
 
 - npm install
 - npm lint
